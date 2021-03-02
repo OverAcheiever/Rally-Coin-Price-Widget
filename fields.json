@@ -1,0 +1,64 @@
+{
+  "creatorCoin": {
+    "type": "text",
+    "label": "Enter Creator Coin",
+    "value": "SKOT",
+    "group": "General Settings"
+  },
+  "coinImage": {
+    "type": "image-input",
+    "label": "Upload Coin Image",
+    "group": "General Settings"
+  },
+  "decimalPlaces": {
+    "type": "number",
+    "label": "Price Decimal Places",
+    "value": 2,
+    "min": 0,
+    "max": 15,
+    "step": 1,
+    "group": "General Settings"
+  },
+  "coinNameFont": {
+    "type": "googleFont",
+    "label": "Coin Name Font",
+    "value": "Montserrat",
+    "group": "Colors and Design"
+  },
+  "coinNameFontWeight": {
+    "type": "number",
+    "label": "Coin Name Font Weight",
+    "value": 700,
+    "min": 0,
+    "max": 1000,
+    "step": 1,
+    "group": "Colors and Design"
+  },
+  "coinPriceFont": {
+    "type": "googleFont",
+    "label": "Coin Price Font",
+    "value": "Montserrat",
+    "group": "Colors and Design"
+  },
+  "coinPriceFontWeight": {
+    "type": "number",
+    "label": "Font Weight",
+    "value": 700,
+    "min": 0,
+    "max": 1000,
+    "step": 1,
+    "group": "Colors and Design"
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background Color",
+    "value": "#333",
+    "group": "Colors and Design"
+  },
+  "borderColor": {
+    "type": "colorpicker",
+    "label": "Border Color",
+    "value": "#fafafa",
+    "group": "Colors and Design"
+  }
+}
