@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family={coinNameFont}:wght@{coinNameFontWeight}&display=swap');
+@import url('https://fonts.googleapis.com/css2?family={coinPriceFont}:wght@{coinPriceFontWeight}&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,7 @@
   top: 0px;
   left: 0px;
   border-radius: 20px;
-  background-color: {backgroundColor};
+  background-color: {borderColor};
   box-shadow: 1px 4px 4px -1px rgba(51, 51, 51, 0.75);
 }
 
@@ -23,7 +26,7 @@
   top: 5px;
   left: 5px;
   z-index: 10;
-  background-color: {borderColor};
+  background-color: {backgroundColor};
 }
 
 .container {
@@ -50,9 +53,8 @@
 }
 
 .coin-image {
-  width: 20px;
-  height: 20px;
-  background-image: url({{coinImage}});
+  width: {imageSize}px;
+  height: {imageSize}px;
   background-size: cover;
 }
 
@@ -67,6 +69,6 @@
 .price{
     color: #333;
   	font-size: 18px;
-  	font-family: {coinNameFont};
+  	font-family: {coinPriceFont};
   font-weight: {coinPriceFontWeight};
 }
